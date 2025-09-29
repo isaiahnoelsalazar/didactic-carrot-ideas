@@ -1,5 +1,5 @@
 import Container from "@/app/_components/container";
-import { EXAMPLE_PATH } from "@/lib/constants";
+// import { EXAMPLE_PATH } from "@/lib/constants";
 import cn from "classnames";
 
 type Props = {
@@ -28,16 +28,16 @@ const Alert = ({ preview }: Props) => {
               to exit preview mode.
             </>
           ) : (
-            <>
-              The source code for this blog is{" "}
-              <a
-                href={`https://github.com/vercel/next.js/tree/canary/examples/${EXAMPLE_PATH}`}
-                className="underline hover:text-blue-600 duration-200 transition-colors"
-              >
-                available on GitHub
-              </a>
-              .
-            </>
+            // <>
+            //   The source code for this blog is{" "}
+            //   <a
+            //     href={`https://github.com/vercel/next.js/tree/canary/examples/${EXAMPLE_PATH}`}
+            //     className="underline hover:text-blue-600 duration-200 transition-colors"
+            //   >
+            //     available on GitHub
+            //   </a>
+            //   .
+            // </>
           )}
         </div>
       </Container>

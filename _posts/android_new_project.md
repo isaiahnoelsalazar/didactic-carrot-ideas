@@ -70,26 +70,26 @@ Do note that you will need to let the IDE finish the Gradle project sync indicat
 
 and at the bottom of the window.
 
-<kdb>![Android Studio Gradle Sync at the Bottom](https://i.ibb.co/HTnP3SNS/android-studio-gradlesyncbottom.png)</kdb>
+<kbd>![Android Studio Gradle Sync at the Bottom](https://i.ibb.co/HTnP3SNS/android-studio-gradlesyncbottom.png)</kbd>
 
 After the Gradle has finished syncing, this will be the final look of the IDE.
 
-<kdb>![Android Studio IDE Final Look](https://i.ibb.co/rKTJ26V5/android-studio-idefinal.png)</kdb>
+<kbd>![Android Studio IDE Final Look](https://i.ibb.co/rKTJ26V5/android-studio-idefinal.png)</kbd>
 
 Do note that if you chose the "No Activity" option, you will not have the default "activity_main.xml" and "MainActivity.java" files at the start.
 
-<kdb>![Android Studio No Activity IDE Final Look](https://i.ibb.co/9mMW4yBN/android-studio-noactivityidefinal.png)</kdb>
+<kbd>![Android Studio No Activity IDE Final Look](https://i.ibb.co/9mMW4yBN/android-studio-noactivityidefinal.png)</kbd>
 
 To add a new activity, right-click on the "app" folder on the left and choose the "New > Activity > Empty Views Activity" option.
 
-<kdb>![Android Studio No Activity New Activity](https://i.ibb.co/23wz1P1T/android-studio-noactivitynewactivity1.png)</kdb>
+<kbd>![Android Studio No Activity New Activity](https://i.ibb.co/23wz1P1T/android-studio-noactivitynewactivity1.png)</kbd>
 
 You can choose to either change or ignore the settings on the pop-up window.
 
-<kdb>![Android Studio No Activity New Activity Settings](https://i.ibb.co/N2n7VHBZ/android-studio-noactivitynewactivity2.png)</kdb>
+<kbd>![Android Studio No Activity New Activity Settings](https://i.ibb.co/N2n7VHBZ/android-studio-noactivitynewactivity2.png)</kbd>
 
 After clicking the "Finish" button, make sure to edit the "AndroidManifest.xml" located at the folders at the left at "app > manifests > AndroidManifest.xml" and modify the "\<activity\>" tag for the Activity you just created just like this example below.
 
-<kdb>![Android Studio No Activity Manifest](https://i.ibb.co/LX8SR4zn/android-studio-noactivitynewactivity3.png)</kdb>
+<kbd>![Android Studio No Activity Manifest](https://i.ibb.co/LX8SR4zn/android-studio-noactivitynewactivity3.png)</kbd>
 
 This will serve as the default activity that will open as soon as your application starts.

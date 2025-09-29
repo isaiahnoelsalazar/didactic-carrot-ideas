@@ -23,8 +23,7 @@ export function Footer() {
               View on GitHub
             </a> */}
             <a
-              style="opacity: 0;"
-              className="mx-3 font-bold hover:underline"
+              className="mx-3 font-bold hover:underline opacity-0"
             >
               placeholder :D
             </a>

@@ -58,6 +58,7 @@ export default function RootLayout({
         />
         <meta name="theme-color" content="#000" />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
+        <meta name="google-site-verification" content="nUecYgHE8JWmOZpCj-TebHJclQ6SuYCjYv_PYcdDS6Q" />
       </head>
       <body
         className={cn(inter.className, "dark:bg-slate-900 dark:text-slate-400")}
